@@ -10,6 +10,17 @@
                 <a href="{!! url('ruta') !!}" class="btn btn-success">Ir a la ruta</a>
                 <a href="{!! url('controlador') !!}" class="btn btn-primary"> Ir al Controlador</a>
                 <a href="{!! url('front') !!}" class="btn btn-warning"> Ir la ruta Front</a>
+
+
+                 <a href="{!! url('auth/login') !!}" class="btn btn-danger"> Login de usuario</a>
+
+                 <a href="{!! url('auth/register') !!}" class="btn btn-info"> Registro de usuario</a>
+
+                  <a href="{!! url('consulta') !!}" class="btn btn-default"> Consulta de Usuarios</a>
+
+                  <a href="{!! url('vista') !!}" class="btn btn-primary"> Vista desde Ruta</a>
+
+
             </div>
         </div>
 
